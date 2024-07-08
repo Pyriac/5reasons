@@ -16,12 +16,14 @@ h1 {
   box-shadow: rgba(17, 138, 178, 0.2) 0px 4px 8px 0px;
 }
 .reasons {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 .raison {
+  position: relative;
   padding: 2rem;
   margin: 4rem 4rem;
   width: 60%;
@@ -66,4 +68,118 @@ h1 {
   clip-path: inset(0 0 30% 0);
   width: 100%;
   height: auto;
+}
+
+.circle1 {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background-color: #f5f5f5;
+  border: 60px solid #118ab2;
+  position: absolute;
+  z-index: -1;
+  left: 5%;
+  top: 13%;
+}
+.circle2 {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background-color: #f5f5f5;
+  border: 90px solid #118ab2;
+  position: absolute;
+  z-index: -1;
+  left: 78%;
+  top: 66%;
+}
+
+.circle3 {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  background-color: #f5f5f5;
+  border: 30px solid #118ab2;
+  position: absolute;
+  z-index: -1;
+  left: 50%;
+  top: 90%;
+}
+
+.circle4 {
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+  background-color: #f5f5f5;
+  border: 60px solid #118ab2;
+  position: absolute;
+  z-index: -1;
+  left: -5%;
+  top: 120%;
+}
+
+.circle5 {
+  position: absolute;
+  top: 60%;
+  width: 250px;
+  height: 250px;
+  border-radius: 100%;
+  background: linear-gradient(
+    30deg,
+    #d9d9d9 1%,
+    #f5f5f5 2%,
+    #f5f5f5 10%,
+    #d9d9d9 11%,
+    #d9d9d9 30%,
+    #f5f5f5 31%,
+    #f5f5f5 40%,
+    #d9d9d9 41%,
+    #d9d9d9 56%,
+    #f5f5f5 57%,
+    #f5f5f5 67%,
+    #d9d9d9 68%,
+    #d9d9d9 83%,
+    #f5f5f5 84%,
+    #f5f5f5 94%,
+    #d9d9d9 95%
+  );
+}
+
+.circle6 {
+  position: absolute;
+  top: 130%;
+  left: 90%;
+  width: 250px;
+  height: 250px;
+  border-radius: 100%;
+  background: linear-gradient(
+    130deg,
+    #d9d9d9 1%,
+    #f5f5f5 2%,
+    #f5f5f5 10%,
+    #d9d9d9 11%,
+    #d9d9d9 30%,
+    #f5f5f5 31%,
+    #f5f5f5 40%,
+    #d9d9d9 41%,
+    #d9d9d9 56%,
+    #f5f5f5 57%,
+    #f5f5f5 67%,
+    #d9d9d9 68%,
+    #d9d9d9 83%,
+    #f5f5f5 84%,
+    #f5f5f5 94%,
+    #d9d9d9 95%
+  );
+}
+
+.circle7 {
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+  background-color: #f5f5f5;
+  border: 60px solid #118ab2;
+  position: absolute;
+  z-index: -1;
+  left: 40%;
+  top: 220%;
 }

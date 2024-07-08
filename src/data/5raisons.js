@@ -15,7 +15,7 @@ const raisons = [
     id: "3",
     titre: "Je suis force de proposition",
     texte:
-      "Bien que ne possédant pas pour l'instant les valeurs théoriques, je considère que chaque humain a des idées à apporter et il est essentiel de les partager. Une mauvaise idée partagée permet parfois aux autres de créer les meilleures solutions.",
+      "Bien que ne possédant pas pour l'instant les connaissances théoriques, je considère que chaque humain a des idées à apporter et il est essentiel de les partager. Une mauvaise idée partagée permet parfois aux autres de créer les meilleures solutions.",
   },
   {
     id: "4",
