@@ -3,11 +3,12 @@ import PropTypes from "prop-types";
 
 function Raisons({ nombre, titre, texte, valide, setValide }) {
   const [isDisabled, setIsDisabled] = useState(false);
-  const [className, setClassName] = useState("pouce");
+  const [classNameBad, setClassName] = useState("pouce");
+  const [classNameGood, setClassNameGood] = useState("pouce");
   const handlePositiveClick = () => {
     setValide(valide + 1);
     setIsDisabled(true);
-    setClassName("pouceBleu");
+    setClassNameGood("pouceBleu");
   };
   const handleNegativeClick = () => {
     setIsDisabled(true);
@@ -22,7 +23,7 @@ function Raisons({ nombre, titre, texte, valide, setValide }) {
 
       <p className="argument">Argument valide ?</p>
       <button
-        className={className}
+        className={classNameBad}
         type="button"
         onClick={handleNegativeClick}
         disabled={isDisabled}
@@ -30,7 +31,7 @@ function Raisons({ nombre, titre, texte, valide, setValide }) {
         👎
       </button>
       <button
-        className={className}
+        className={classNameGood}
         type="button"
         onClick={handlePositiveClick}
         disabled={isDisabled}
