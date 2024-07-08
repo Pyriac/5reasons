@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./App.css";
+import CVimg from "./assets/CVimg.png";
 import Raisons from "./components/Raisons";
 import raisons from "./data/5raisons";
 import Header from "./components/Header";
@@ -11,6 +12,7 @@ function App() {
       <div className="header">
         <Header />
       </div>
+      <img className="CVphoto" src={CVimg} alt="" />
       <div className="reasons">
         {raisons.map((raison) => (
           <Raisons
