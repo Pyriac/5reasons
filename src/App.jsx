@@ -22,12 +22,17 @@ function App() {
             setValide={setValide}
           />
         ))}
+
+        {valide < 3 ? (
+          ""
+        ) : (
+          <p className="raison">
+            Vous avez validé {valide}/5 des mes arguments. On se rencontre ? Je
+            suis disponible du Lundi au Vendredi de 9h à 17h30
+          </p>
+        )}
       </div>
-      <p>
-        {valide < 3
-          ? ""
-          : ` Vous avez validé ${valide}/5 des mes arguments. On se rencontre ? Je suis disponible du Lundi au Vendredi de 9h à 17h30`}
-      </p>
+
       <div className="footer">
         <Footer />
       </div>
