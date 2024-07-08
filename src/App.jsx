@@ -12,7 +12,9 @@ function App() {
       <div className="header">
         <Header />
       </div>
-      <img className="CVphoto" src={CVimg} alt="" />
+      <div className="cvphoto">
+        <img className="cyriac" src={CVimg} alt="" />
+      </div>
       <div className="reasons">
         {raisons.map((raison) => (
           <Raisons
