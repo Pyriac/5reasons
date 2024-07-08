@@ -3,6 +3,7 @@ import "./App.css";
 import Raisons from "./components/Raisons";
 import raisons from "./data/5raisons";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 function App() {
   const [valide, setValide] = useState(0);
   return (
@@ -27,6 +28,9 @@ function App() {
           ? ""
           : ` Vous avez validé ${valide}/5 des mes arguments. On se rencontre ? Je suis disponible du Lundi au Vendredi de 9h à 17h30`}
       </p>
+      <div className="footer">
+        <Footer />
+      </div>
     </main>
   );
 }
